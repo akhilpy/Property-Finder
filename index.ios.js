@@ -15,7 +15,9 @@ const BasicApp = StackNavigator({
      screen: SearchPage ,
      navigationOptions: ({navigation}) => ({
      //title: `${this}'s Profile'`,
-     title: 'Property Finder'
+     title: 'Property Finder',
+     headerStyle:{ backgroundColor: '#12AAEE' , shadowColor: '#FFF'},
+     headerTintColor: 'white',
      }),
   },
   Results: {
