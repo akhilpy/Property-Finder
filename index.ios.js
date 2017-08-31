@@ -16,7 +16,7 @@ const BasicApp = StackNavigator({
      navigationOptions: ({navigation}) => ({
      //title: `${this}'s Profile'`,
      title: 'Property Finder',
-     headerStyle:{ backgroundColor: '#12AAEE' , shadowColor: '#FFF'},
+     headerStyle:{ backgroundColor: '#12AAEE' },
      headerTintColor: 'white',
      }),
   },
@@ -36,7 +36,7 @@ export default class PropertyFinder extends Component {
 
   }
   render() {
-    return <BasicApp name = 'Arnab'/>;
+    return <BasicApp/>;
   }
 }
 

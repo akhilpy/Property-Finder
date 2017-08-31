@@ -90,7 +90,7 @@ export default class SearchPage extends Component {
           <TextInput
             style={styles.searchInput}
             value={this.state.searchString}
-            onChange={this._onSearchTextChanged}
+            onChange={this._onSearchTextChanged.bind(this)}
             placeholder='Search via name or postcode'/>
           <Button
             onPress={this._onSearchPressed}
